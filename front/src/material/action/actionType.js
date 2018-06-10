@@ -1,0 +1,6 @@
+export const OPENLEFT = 'openleft'
+export const CLOSELEFT = 'closeleft'
+export const TOGGLELEFT = 'toggleleft'
+export const OPENRIGHT = 'openright'
+export const CLOSERIGHT = 'closeright'
+export const TOGGLERIGHT = 'toggleright'

@@ -1,0 +1,92 @@
+[
+    {
+        "uid": 1,
+        "id": "fusionnetdoctor-ewflow",
+        "name": "VM间断流检测",
+        "description": "",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.99:8443/#/netdoctor/manager/ewflow\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 2,
+        "id": "Service_OM_ECS_ComputeInstances",
+        "name": "计算实例",
+        "description": "",
+        "type": "compute",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.80.165:663/soconsolehomewebsite/index.html#/index/custom?customTemUrl=%2Fecs%2Fui%2FcomputeInstance%2FcomputeInstance.html&ci=ComputeInstances&label=ecs\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 3,
+        "id": "fusionnetdoctor-config",
+        "name": "系统配置",
+        "description": "",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.99:8443/#/netdoctor/manager/config\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 4,
+        "id": "fusioncare-config",
+        "name": "fusionCareConfig",
+        "description": "",
+        "type": "paas",
+        "isGlobal": "1",
+        "urlList": "[{\"url\":\"https://192.166.83.106:8803/index.html#/sysconfig/envconfig?menu=false&navigation=false&bottom=false\",\"regionId\":\"cn-global-1\"},{\"url\":\"https://111.22.22.33:8171/xxxx?pramlistmenu=false&navigation=false&bottom=false1111\",\"regionId\":\"\"}]"
+    },
+    {
+        "uid": 5,
+        "id": "fusionnetdoctor-vmInfo",
+        "name": "VM信息查询",
+        "description": "",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.99:8443/#/netdoctor/manager/vmInfo\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 6,
+        "id": "fusionnetdoctor-fipphy",
+        "name": "EIP-PING探测",
+        "description": "",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.99:8443/#/netdoctor/manager/fipphy\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 7,
+        "id": "Service_OM_ECS_VmGroups",
+        "name": "虚拟机组",
+        "description": "",
+        "type": "compute",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.80.165:663/soconsolehomewebsite/index.html#/index/custom?customTemUrl=%2Fecs%2Fui%2FvmGroup%2FvmGroup.html&ci=VmGroups&label=ecs\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 8,
+        "id": "fusioncare-infocollection",
+        "name": "信息收集",
+        "description": "FusionCare信息收集",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.106:8803/index.html#/infoindex/infocollect?menu=false&navigation=false&bottom=false\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 9,
+        "id": "Service_OM_ECS_Hosts",
+        "name": "主机和Hypervisor",
+        "description": "",
+        "type": "resource",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.80.165:663/soconsolehomewebsite/index.html#/index/custom?customTemUrl=%2Fecs%2Fui%2Fhost%2Fhost.html&ci=Hosts&label=ecs\",\"regionId\":\"cn-global-1\"}]"
+    },
+    {
+        "uid": 10,
+        "id": "gray_trace_detail",
+        "name": "gray trace",
+        "description": "通过traceid来展示trace详情",
+        "type": "iaas",
+        "isGlobal": "0",
+        "urlList": "[{\"url\":\"https://192.166.83.107:9999/Trace/api/v1/sys/provide/traceDetail/zh_cn/{traceid}?menu=false&navigation=false&bottom=false&topnav=false\",\"regionId\":\"cn-global-1\"}]"
+    }
+]
